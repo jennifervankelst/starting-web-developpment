@@ -1,0 +1,195 @@
+
+body {
+    background-color: #d7dbdd;
+    font-family: Montserrat;
+
+}
+
+.profil {
+     background-color: #FFFFFF;
+     margin-left: 500px;
+     margin-right: 500px;
+     margin-top: 30px;
+     padding-bottom: 20px;
+     font-weight: 400;
+
+}
+
+.photo {
+    display: inline-block;
+    margin-left: 300px;
+}
+
+.résumé{
+    text-align: justify;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+
+.titres {
+    text-align: center;
+}
+
+.bouton {
+    margin-left: 350px;
+    background-color: red;
+    font-family: Montserrat;
+    color: #FFFFFF;
+}
+
+.reseaux-sociaux {
+    background: #FFFFFF;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 20px;
+    display: grid;
+    padding-left: 300px;
+    text-decoration: none;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-areas: 
+                    "Facebook Linkedin Twitter"
+                    "Facebook Linkedin Twitter";
+}
+
+.Facebook {
+    grid-area: Facebook;
+    align-self: center;
+    justify-self: center;
+    text-decoration: none;
+
+}
+
+.Linkedin {
+    grid-area: Linkedin;
+    align-self: center;
+    justify-self: center;
+    text-decoration: none;
+
+}
+
+.Twitter {
+    grid-area: Twitter;
+    align-self: center;
+    justify-self: center;
+    text-decoration: none;
+
+}
+
+/* .photos-reseaux {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+} */
+
+/* .photo123 {
+    width: 30px;
+    height: 30px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+} */
+/* ul{ 
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+li a {
+    text-decoration: none;
+} */
+
+.films {
+    overflow: none;
+    background: #FFFFFF;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 200px 250px 300px;
+    grid-template-areas: 
+                    "titlemovie titlemovie titlemovie"
+                    "film1 film1 film1"
+                    "film2 film2 film2"
+                    "film3 film3 film3";
+
+}
+
+.film1 {
+    grid-area: film1;
+    display: grid;
+    grid-template-columns: 200px 250px 300px;
+    grid-template-areas: 
+                    "photo1 titre1 titre1"
+                    "photo1 texte1 texte1";
+}
+
+#photo1 {
+    grid-area: photo1;
+
+}
+
+#texte1 {
+    grid-area: texte1;
+
+}
+
+#titre1 {
+    grid-area: titre1;
+    
+}
+
+.film2 {
+    grid-area: film2;
+    display: grid;
+    grid-template-columns: 200px 250px 300px;
+    grid-template-areas: 
+                    "photo2 titre2 titre2"
+                    "photo2 texte2 texte2";
+}
+
+#photo2 {
+    grid-area: photo2;
+
+}
+
+#texte2 {
+    grid-area: texte2;
+
+}
+
+#titre2 {
+    grid-area: titre2;
+    
+}
+
+.film3 {
+    grid-area: film3;
+    display: grid;
+    grid-template-columns: 200px 250px 300px;
+    grid-template-areas: 
+                    "photo3 titre3 titre3"
+                    "photo3 texte3 texte3";
+}
+
+#photo3 {
+    grid-area: photo3;
+
+}
+
+#texte3 {
+    grid-area: texte3;
+
+}
+
+#titre3 {
+    grid-area: titre3;
+    
+}
+
+#Titlemovie {
+    grid-area: titlemovie;
+}
