@@ -76,32 +76,15 @@ body {
 
 }
 
-/* .photos-reseaux {
-    margin-left: 10px;
-    margin-right: 10px;
-    text-align: center;
-} */
-
-/* .photo123 {
+.photo123 {
     width: 30px;
     height: 30px;
     padding-top: 70px;
     padding-bottom: 70px;
-} */
-/* ul{ 
-    list-style-type: none;
-    overflow: hidden;
 }
-
-li{
-    float: left;
-}
-
-li a {
-    text-decoration: none;
-} */
 
 .films {
+    padding-left: 10px;
     overflow: none;
     background: #FFFFFF;
     margin-left: 500px;
@@ -129,6 +112,8 @@ li a {
 
 #photo1 {
     grid-area: photo1;
+    width: 60%;
+    height: 50%;
 
 }
 
@@ -139,6 +124,8 @@ li a {
 
 #titre1 {
     grid-area: titre1;
+    text-align: center;
+
     
 }
 
@@ -153,6 +140,8 @@ li a {
 
 #photo2 {
     grid-area: photo2;
+    width: 60%;
+    height: 50%;
 
 }
 
@@ -163,6 +152,8 @@ li a {
 
 #titre2 {
     grid-area: titre2;
+    text-align: center;
+
     
 }
 
@@ -177,6 +168,8 @@ li a {
 
 #photo3 {
     grid-area: photo3;
+    width: 60%;
+    height: 50%;
 
 }
 
@@ -187,9 +180,11 @@ li a {
 
 #titre3 {
     grid-area: titre3;
+    text-align: center;
     
 }
 
 #Titlemovie {
     grid-area: titlemovie;
+    text-align: center;
 }
